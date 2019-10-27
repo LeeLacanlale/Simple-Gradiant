@@ -3,6 +3,7 @@ const color2 = document.querySelector(".color2");
 
 const random = document.querySelector(".buttonRand");
 
+// create gradient affect on the web page
 function setGradient() {
     let body = document.getElementById("gradient");
     let css = document.querySelector("h3");
@@ -13,6 +14,7 @@ function setGradient() {
         css.textContent = body.style.background + ";";
 }
 
+// selects a random color in hexadecimal and updates the web page with selected colors
 function getRandomColor() {
     const hex = '0123456789ABCDEF';
     let color = '#';
